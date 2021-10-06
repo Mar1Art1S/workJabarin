@@ -49,7 +49,7 @@ a {
 /* Container */
 .container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1950px;
   margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ a {
 
 header {
   display: flex;
-  max-width: 1920px;
+  max-width: 1950px;
   justify-content: center;
   width: 100%;
   height: 100vh;
