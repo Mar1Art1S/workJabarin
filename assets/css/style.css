@@ -62,7 +62,7 @@ a {
 
 header {
   display: flex;
-  max-width: 1950px;
+  max-width: 1920px;
   justify-content: center;
   width: 100%;
   height: 100vh;
