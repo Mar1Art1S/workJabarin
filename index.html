@@ -15,26 +15,32 @@
 </head>
 
 <body>
+
   <header class="header">
     <div class="container">
       <div class="header__inner">
         <div class="navbar__collapse">
-          <div class="nambar__nav">
-            <a class="nav__link" href="#">אודות</a>
+          <div class="nambar__nav" id="nav">
+            <a class="nav__link active" href="#">אודות</a>
             <a class="nav__link" href="#">מגורים</a>
             <a class="nav__link" href="#">משרדים ומסחר</a>
             <a class="nav__link" href="#">התחדשות עירונית</a>
             <a class="nav__link" href="#">צור קשר</a>
           </div>
-          <div class="lang">
-            <a class="lang_nav" href="#">En</a>
-            <a class="lang_nav" href="#"><span>| </span>Ru</a>
-            <a class="lang_nav" href="#"><span>| </span>He</a>
+          <div class="langs">
+            <div class="lang">
+              <a class="lang_nav" href="#">En</a>
+              <a class="lang_nav" href="#"><span class="span">| </span>Ru</a>
+              <a class="lang_nav" href="#"><span class="span">| </span>He</a>
+            </div>
+            <button class="nav-toggle" id="nav_toggle" type="button">
+              <span class="nav-toggle__item">Menu</span>
+            </button>
           </div>
         </div>
         <div class="header__logo">
           <a href="#" class="logo__link">
-            <div class="light__logo"><img src="assets/images/light-logo.png" alt=""></div>
+            <div class="light__logo"><img class="logo__bgr" src="assets/images/light-logo.png" alt=""></div>
             <img class="logo__img" src="assets/images/logo.svg" alt="">
           </a>
         </div>
@@ -73,70 +79,77 @@
       </div>
     </section>
     <!-- About -->
-    <section class="section">
-      <div class="container">
-        <div class="about">
-          <div class="about__inner">
-            <div class="about__title">
-              <h2 class="about__paragraf">אודות הקבוצה</h2>
-              <p class="about__text"> קבוצת ג’בארין נדל”ן פעילה בתחום הביצוע ,היזמות ופיתוח הנדל”ן בארץ.<br>
-                הוא מעורב במגוון רחב של פרויקטים בתחום הבניה למגורים, הבנייה הציבורית ובנייה ויזמות של שטחים מסחריים
-                בארץ.<br>
-                אחד מיתרונותיו הבולטים של קבוצת ג’בארין נדל”ן הינו העסקת כוח האדם האיכותי בתחום הבנייה בחברות
-                שברשותו:<br>
-                החל בכ”א עבודה בבנייה איכותי ואמיתי ונוסף לו בשדרה ניהולית מנוסה ואיכותית בדמות מהנדסים, מנהלי
-                פרויקטים ומנהלי עבודה.<br>
-                בחברותיו מועסקים פועלים מקצועיים נאמנים ומיומנים בעלי וותק של שנים רבות בחברה.<br>
-                בכל פרויקט קבוצת ג’בארין נדל”ן שמה דגש על: איכות הביצוע, עמידה בלוחות זמנים ורמת שירות גבוהה.</p>
-            </div>
-            <div class="cards">
-              <ul class="cards__item">
-                <li class="card">
-                  <div class="card__title">
-                    <div class="card__inner">
-                      <p class="card__text">פעילות קנאביס</p>
-                      <div class="card__img">
-                        <img class="card__images  card__plant" src="assets/images/card/plant.png" alt="">
-                        <img src="assets/images/card/gr_blue.png" alt="" class="bg__images">
-                      </div>
-                    </div>
-                  </div>
+    <div class="container">
+      <div class="about">
+        <div class="about__inner">
+          <div class="about__title">
+            <h2 class="about__paragraf">אודות הקבוצה</h2>
+            <p class="about__text"> קבוצת ג’בארין נדל”ן פעילה בתחום הביצוע ,היזמות ופיתוח הנדל”ן בארץ.</p>
+            <p class="about__text">הוא מעורב במגוון רחב של פרויקטים בתחום הבניה למגורים, הבנייה הציבורית ובנייה ויזמות
+              של שטחים מסחריים
+              בארץ.</p>
+            <p class="about__text">אחד מיתרונותיו הבולטים של קבוצת ג’בארין נדל”ן הינו העסקת כוח האדם האיכותי בתחום
+              הבנייה בחברות
+              שברשותו:</p>
+            <p class="about__text">החל בכ”א עבודה בבנייה איכותי ואמיתי ונוסף לו בשדרה ניהולית מנוסה ואיכותית בדמות
+              מהנדסים, מנהלי
+              פרויקטים ומנהלי עבודה.</p>
+            <p class="about__text">בחברותיו מועסקים פועלים מקצועיים נאמנים ומיומנים בעלי וותק של שנים רבות בחברה.
+            </p>
+            <p class="about__text"> בכל פרויקט קבוצת ג’בארין נדל”ן שמה דגש על: איכות הביצוע, עמידה בלוחות זמנים ורמת
+              שירות גבוהה.</p>
 
-                </li>
-                <li class="card">
-                  <div class="card__inner">
-                    <p class="card__text">פעילות מילונאות</p>
-                    <div class="card__img">
-                      <img class="card__images" src="assets/images/card/hi-tech.png" alt="">
-                      <img src="assets/images/card/gr_blue.png" alt="" class="bg__images">
 
-                    </div>
-                  </div>
-                </li>
-                <li class="card">
-                  <div class="card__inner">
-                    <p class="card__text">התחדשות עירונית</p>
-                    <div class="card__img">
-                      <img class="card__images" src="assets/images/card/tech.png" alt="">
-                      <img src="assets/images/card/gr_blue.png" alt="" class="bg__images">
-                    </div>
 
-                  </div>
-                </li>
-                <li class="card">
+          </div>
+          <div class="cards">
+            <ul class="cards__item">
+              <li class="card">
+                <div class="card__title">
                   <div class="card__inner">
-                    <p class="card__text">פעילות יזמות</p>
+                    <p class="card__text">פעילות קנאביס</p>
                     <div class="card__img">
-                      <img class="card__images" src="assets/images/card/house.png" alt="">
+                      <img class="card__images  card__plant" src="assets/images/card/plant.png" alt="">
                       <img src="assets/images/card/gr_blue.png" alt="" class="bg__images">
                     </div>
                   </div>
-                </li>
-              </ul>
-            </div>
+                </div>
+
+              </li>
+              <li class="card">
+                <div class="card__inner">
+                  <p class="card__text">פעילות מילונאות</p>
+                  <div class="card__img">
+                    <img class="card__images" src="assets/images/card/hi-tech.png" alt="">
+                    <img src="assets/images/card/gr_blue.png" alt="" class="bg__images">
+
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="card__inner">
+                  <p class="card__text">התחדשות עירונית</p>
+                  <div class="card__img">
+                    <img class="card__images" src="assets/images/card/tech.png" alt="">
+                    <img src="assets/images/card/gr_blue.png" alt="" class="bg__images">
+                  </div>
+
+                </div>
+              </li>
+              <li class="card">
+                <div class="card__inner">
+                  <p class="card__text">פעילות יזמות</p>
+                  <div class="card__img">
+                    <img class="card__images" src="assets/images/card/house.png" alt="">
+                    <img src="assets/images/card/gr_blue.png" alt="" class="bg__images">
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <section class="section">
@@ -247,7 +260,7 @@
           </div>
           <div class="footer__logo">
             <a href="#" class="footer__link--logo">
-              <div class="light__footer"><img src="assets/images/light-logo-mini.png" alt=""></div>
+              <div class="light__footer"><img class="mini__logo" src="assets/images/light-logo-mini.png" alt=""></div>
               <img class="logo__img--footer" src="assets/images/logo.svg" alt="">
             </a>
           </div>
@@ -259,7 +272,8 @@
   </footer>
 
   </div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>
