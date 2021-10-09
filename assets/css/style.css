@@ -49,7 +49,6 @@ a {
 /* Container */
 .container {
   width: 100%;
-  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -112,19 +111,16 @@ a {
   left: auto;
 }
 .lang {
-
   margin-right: 27px;
 }
 
 .lang_nav {
-
   font-family: "Heebo", sans-serif;
   color: #FDF9ED;
   font-size: 18px;
   transition: color .1s linear;
 }
 .lang_nav::before {
-
   content: "";
   width: 10px;
   height: 2px;
@@ -287,7 +283,7 @@ a {
 .location {
   position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   height: 109px;
   background: #1b4a67;
@@ -510,14 +506,14 @@ a {
 }
 
 .works__info {
-  width: 746px;
+  width: 60%;
   height: 664px;
   background: #746345;
   margin-right: 12px;
 }
 
 .works__info__botton {
-  width: 830px;
+  width: 60%;
   height: 100%;
   background: #746345;
   margin-left: 12px;
@@ -618,7 +614,7 @@ a {
 }
 
 .address__form {
-  width: 40%;
+  width: 60%;
   height: 630px;
   background: #746345;
   margin-bottom: 10px;
@@ -846,6 +842,8 @@ a {
     margin-right: 50px;
   }
   .img__bg {
+
+
     margin-top: 10px;
   }
   .address__title {
