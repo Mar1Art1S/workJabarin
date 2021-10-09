@@ -723,6 +723,7 @@ a {
 
   .container {
     max-width: 1600px;
+    overflow-x:hidden;
   }
   .about {
     margin-top: 52px;
@@ -930,6 +931,7 @@ a {
 
   .container {
     max-width: 1402px;
+    overflow-x:hidden;
   }
   .cards {
     margin-top: 30px;
@@ -1121,6 +1123,7 @@ a {
   .container {
     width: 100%;
     max-width: 1365px;
+    overflow-x:hidden;
   }
   .navbar__collapse {
     margin-top: 32px;
@@ -1433,6 +1436,7 @@ a {
 @media (max-width: 850px) {
 
   .container {
+    overflow-x:hidden;
     width: 100%;
     max-width: 850px;
   }
