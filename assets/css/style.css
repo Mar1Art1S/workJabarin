@@ -61,7 +61,6 @@ a {
   position: relative;
   background: #000000 url(../images/Bg.png) center no-repeat;
   margin: 0 auto;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 
